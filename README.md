@@ -60,7 +60,17 @@ Os efeitos interativos respeitam `prefers-reduced-motion`, ponteiro por toque e 
 
 ## Equipe e entrega
 
-Integrantes, RMs, turma, funções e GitHub: **pendentes de confirmação pela equipe**. Repositório público GitHub: **link pendente**. Deploy Vercel: **link pendente**. Vídeo YouTube (até três minutos): **link pendente**. Canal de contato oficial: **pendente**. A rota `/integrantes` não inventa nomes.
+A página `/integrantes`, disponível no menu e no rodapé, apresenta os cinco integrantes com foto, RM, turma, LinkedIn e GitHub. Os dados e as fotos foram obtidos do [repositório indicado pela equipe](https://github.com/alvesdemacedoenzo-beep/challenge-front-end-fiap/tree/ab68687687319ec60cab98737dc10b34fca58f44), em `src/data/site.ts` e `src/assets/team/`. As fotos estão incluídas localmente em `src/assets/team/` e os perfis em `src/data/team.ts`.
+
+| Integrante | RM | Turma |
+|---|---|---|
+| Raphael Ferreira Tavares | 569767 | 1TDSPY |
+| Bryan Germano | 569716 | 1TDSPY |
+| Enzo Macedo | 569427 | 1TDSPY |
+| Victor Hugo Velasco Guzman | 573173 | 1TDSPY |
+| Vinicios Alves | 573002 | 1TDSPY |
+
+Funções no projeto: **pendentes de confirmação pela equipe**. Repositório público GitHub: **link pendente**. Deploy Vercel: **link pendente**. Vídeo YouTube (até três minutos): **link pendente**. Canal de contato oficial: **pendente**.
 
 A FIAP exige **mínimo de 15 commits no total e 5 por integrante**. Cada pessoa deve realizar seus próprios commits; não falsifique autoria. O ZIP final (até 50 MB, sem `node_modules`) deve ser entregue no Portal do Aluno até **19/11/2026 às 23h55**, conforme a especificação fornecida.
 
