@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import { Layout } from './components/Layout'
-import { About, Contact, Enter, FAQ, Home, Members, NotFound } from './pages/PublicPages'
+import { About, Contact, Enter, FAQ, Home, NotFound } from './pages/PublicPages'
+import { Members } from './pages/MembersPage'
 import { Search, ProfessionalDetail } from './pages/SearchPages'
 import { ClientRegistration, ProfessionalRegistration } from './pages/RegistrationPages'
 import { RequestWizard } from './pages/RequestWizard'

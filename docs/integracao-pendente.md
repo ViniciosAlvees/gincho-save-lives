@@ -5,7 +5,7 @@
 - Chat entre dispositivos, notificações e atualização em tempo real.
 - Localização/geocodificação confiável, rotas rodoviárias e estimativas reais — não são exibidas no protótipo.
 - Verificação de guincheiros, preços reais, contato e pagamentos (fora do escopo atual).
-- Confirmação dos integrantes, RMs, turma, links GitHub/Vercel/YouTube e contato oficial.
+- Confirmação das funções de cada integrante, links do repositório do projeto/Vercel/YouTube e contato oficial. Nomes, RMs, turma, fotos e perfis pessoais já estão na página `/integrantes`.
 - Deploy público na Vercel, vídeo e apresentação presencial. `vercel.json` já prepara o fallback SPA.
 - Revisão final de acessibilidade, privacidade e validação com a API e dispositivos reais.
 - Autenticação real de cliente, guincheiro e funcionário, sessão segura, autorização por recurso e validação de status no servidor. O PIN de oito dígitos não deve ser validado no bundle do navegador.
