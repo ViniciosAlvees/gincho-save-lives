@@ -70,13 +70,13 @@ A página `/integrantes`, disponível no menu e no rodapé, apresenta os cinco i
 | Victor Hugo Velasco Guzman | 573173 | 1TDSPY |
 | Vinicios Alves | 573002 | 1TDSPY |
 
-Funções no projeto: **pendentes de confirmação pela equipe**. Repositório público GitHub: **link pendente**. Deploy Vercel: **link pendente**. Vídeo YouTube (até três minutos): **link pendente**. Canal de contato oficial: **pendente**.
+Funções no projeto: **pendentes de confirmação pela equipe**. Repositório GitHub: [gincho-save-lives](https://github.com/ViniciosAlvees/gincho-save-lives) (URL conferida no remote local; visibilidade pública ainda precisa ser confirmada). Deploy Vercel: **link pendente**. API Java remota: **link pendente**. Vídeo YouTube (até três minutos): **link pendente**. Canal de contato oficial: **pendente**.
 
-A FIAP exige **mínimo de 15 commits no total e 5 por integrante**. Cada pessoa deve realizar seus próprios commits; não falsifique autoria. O ZIP final (até 50 MB, sem `node_modules`) deve ser entregue no Portal do Aluno até **19/11/2026 às 23h55**, conforme a especificação fornecida.
+A FIAP exige **mínimo de 15 commits no total e 5 por integrante**. Com os cinco integrantes listados, cumprir cinco por pessoa resulta em pelo menos **25 commits**. Cada pessoa deve realizar seus próprios commits; não falsifique autoria. O ZIP final (até 50 MB, sem `node_modules`) deve incluir `identificacao.txt` e ser entregue no Portal do Aluno até **19/11/2026 às 23h55**, conforme a especificação fornecida. Confira [a revisão dos requisitos e penalidades](docs/revisao-frontend.md) antes de enviar.
 
 ## API Java e Vercel
 
-A integração real com Java/Oracle está **pendente** e é responsabilidade dos demais integrantes. As camadas `src/services/towService.ts` e `src/services/platformService.ts` definem operações futuras via Fetch; o segundo contrato é provisório e não é chamado no modo demonstração. Configure `VITE_APP_MODE=api` e `VITE_API_BASE_URL` apenas quando o contrato e servidor estiverem disponíveis. O modo API mostra loading, erro e vazio sem cair silenciosamente nos mocks; as telas de escrita do modo API ainda aguardam o contrato definitivo. Veja [contrato proposto](docs/contrato-api.md) e [pendências](docs/integracao-pendente.md).
+A implementação e publicação do backend Java/Oracle dependem dos integrantes responsáveis, mas **a integração também faz parte da avaliação do frontend**. Em `VITE_APP_MODE=api`, `/buscar-guincho` consulta e exibe os profissionais via GET, `/guincheiros/:id` apresenta o profissional retornado e `/solicitar-guincho` envia um POST com feedback de carregamento, erro e sucesso. As chamadas usam Fetch em `src/services/towService.ts`, validam o formato recebido e não usam mocks como fallback. Configure `VITE_API_BASE_URL` com a URL do Java e alinhe o contrato e o CORS com a equipe. Esses fluxos estão preparados no frontend e testados com respostas controladas; **a integração real ainda não foi comprovada**. As demais áreas em modo API aguardam autenticação e contrato definitivo em `src/services/platformService.ts`. Veja [contrato proposto](docs/contrato-api.md) e [pendências](docs/integracao-pendente.md).
 
 O arquivo `vercel.json` configura fallback de rotas SPA para acesso direto. O deploy ainda não foi realizado.
 

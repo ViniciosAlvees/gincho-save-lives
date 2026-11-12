@@ -1,6 +1,7 @@
 # Integração pendente
 
 - API Java real (18 pontos da matriz): endpoints GET/POST/PUT, autenticação/autorização, validação, concorrência e persistência Oracle.
+- A listagem GET e o formulário POST estão conectados ao cliente Fetch em modo API, mas precisam ser validados contra o Java remoto. O formato de resposta, os cookies e o CORS precisam corresponder a `docs/contrato-api.md`. Essa integração conta também na nota de Front-End.
 - Substituição do armazenamento local por dados remotos, sem fallback silencioso para mocks no modo API.
 - Chat entre dispositivos, notificações e atualização em tempo real.
 - Localização/geocodificação confiável, rotas rodoviárias e estimativas reais — não são exibidas no protótipo.
